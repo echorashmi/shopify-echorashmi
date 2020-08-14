@@ -1,1 +1,33 @@
 // put your styles here
+body{
+    margin:0px;
+    font-family: sans-serif;
+}
+#top-alert{
+    background: #a39260;
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-align: center;
+}
+nav{
+    height: 150px;
+    background: #061225;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+    float:right;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+}

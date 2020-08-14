@@ -48,3 +48,19 @@ Okay, So I managed to get a Python Script to retrieve the Blog from Shopify API.
 I'm gonna skip past this and dive into the HTML / CSS / JavaScript Pieces a bit more. 
 
 Let's assume this widget has the content available via a variable named 'content_top_alert'
+
+Getting some CSS in there:
+
+body{
+    margin:0px
+}
+#top-alert{
+    background: #a39260;
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-align: center;
+}
