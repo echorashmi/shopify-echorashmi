@@ -1,7 +1,5 @@
 Attempting to recreate an existing Shopify Store to get practice of Liquid Templating. 
 
-The store I've chosen is: https://www.truefittandhill.ca/
-
 The 2 elements I want to focus on re-creating are:
 - Navigation Header
 - Footer
