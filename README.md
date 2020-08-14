@@ -37,3 +37,14 @@ Gonna switch tracks a bit because blogs are hard to capture. Let's move on and f
 
 Okay, gotta shift gears, turns out the home page auto displays 4 products a la code in index.liquid. Added one line custom html there just to test. Works fine. I have access to all the HTML and CSS on the Page. Haven't quiet figured out how to fetch individual content yet, that's still to be figured out. I know I can do it using GraphQL and Python, just got to write the script and host it up somewhere. 
 
+Backtracking. GRAPH API Needs understanding of FB's GraphQL. More information available here: http://spec.graphql.org/
+
+Switching over to REST API Instead. Created a new folder - Shopify-app to create the app script in. 
+
+Okay, So I managed to get a Python Script to retrieve the Blog from Shopify API. What I don't know next is:
+1 - Where do I host this script?
+2 - How do I pass this information to the Frontend?
+
+I'm gonna skip past this and dive into the HTML / CSS / JavaScript Pieces a bit more. 
+
+Let's assume this widget has the content available via a variable named 'content_top_alert'
